@@ -1524,7 +1524,8 @@ body .miamy-noteworthy{
     color: #fff;
     font-weight: 100;
     background-color: #c34538;
-    padding: 15px 9px 11px 9px;
+    /*padding: 15px 9px 11px 9px;*/
+    padding: 13px 9px 14px 9px;
     text-align: right;
     font-size: 28px;
     margin-left: 74px;
@@ -1587,7 +1588,8 @@ body .miamy-noteworthy{
 	color: #064799;
 }
 .page_destinations_open .icon-align{
-	text-align: center;	
+	text-align: center;
+	margin-top: 40px;	
 }
 .page_destinations_open .icon-text{
 	margin-top: 40px;
@@ -1598,6 +1600,9 @@ body .miamy-noteworthy{
 	border-right: 1px solid #e5e5e5; 
 	margin-top: 40px;
 	/*font-size: 14px;*/
+}
+.page_destinations_open .content-right h3{
+	margin-top: 0;
 }
 .page_destinations_open .content-right h4{
 	color: #0c3e7d;
@@ -1612,18 +1617,76 @@ body .miamy-noteworthy{
 	border-radius: 0;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 22px;
-	padding: 10px 0px 10px 20px;
-	margin: 40px 0;
+	padding: 12px 0px 12px 20px;
+	/*margin: 40px 0;*/
+
+	display: inline-block;
+    text-align: center;
+    font-family: 'Etelka Medium Pro', sans-serif;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #fff;
+    transition: .3s all;
 }
 .page_destinations_open .btn-order:hover{
 	background-color: #c11200;
 	color: #fff;
 }
-#map-canvas {
+.page_destinations_open #map-canvas {
     width: 100%;
     height: 500px;
 }
+.page_destinations_open .tab-pane{
+	padding-top: 40px;
+}
+
+
+
+
+
+
+													/**/
+
+/*.page_destinations_open .custom-button {
+    position: relative;
+    width: 10%!important; 
+}*/
+
+.page_destinations_open .custom-button-order {
+	position: relative;
+	width: 200px;
+	border-right: 33px solid #2981b3 !important;
+	border-bottom: 4px solid #2981b3 !important;
+	background: #2eb3ff !important;
+	text-transform: uppercase;
+	border-radius: 0 !important;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'Etelka Medium Pro', sans-serif;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #fff;
+	transition: .3s all;
+}
+.page_destinations_open .custom-button-order:hover {
+	border-right: 33px solid #2eb3ff !important;
+	border-bottom: 4px solid #2eb3ff !important;
+	background: #2981b3 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 992px){
 	.page_destinations .main_img {
 	    right: 10%;
@@ -2203,3 +2266,17 @@ body .miamy-noteworthy{
 	}
 }
 													/*END 02_DESTINATIONS-08.10.2015*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
