@@ -516,9 +516,9 @@ body#property-management-page {
 	width: 18px;
 	height: 20px;
 	background: url(../images/icon-tell.png) no-repeat;
-	vertical-align: super;
+	vertical-align: middle;
 }
-.custom-button {
+.custom-button{
 	position: relative;
 	width: 100%;
 	border-right: 33px solid #2981b3 !important;
@@ -534,6 +534,7 @@ body#property-management-page {
 	vertical-align: middle;
 	color: #fff;
 	transition: .3s all;
+	margin-top: -700px;
 }
 .custom-button:hover {
 	border-right: 33px solid #2eb3ff !important;
@@ -553,9 +554,17 @@ body#property-management-page {
 .property-management-page .location-wrap img{
 	bottom: -17%;
 }
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1199px) {
+	.custom-button {
+		margin-top: -850px;
+	}
+}
+@media only screen and (max-width : 991px) {
 	.property-management-page .no-padding-left.col-content-block_columns{
 		padding-left: 15px !important;
+	}
+	.custom-button {
+		margin-top: 0px;
 	}
 }
 @media only screen and (max-width : 767px) {
