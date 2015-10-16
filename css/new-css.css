@@ -1533,7 +1533,6 @@ body .miamy-noteworthy{
     color: #fff;
     font-weight: 100;
     background-color: #c34538;
-    /*padding: 15px 9px 11px 9px;*/
     padding: 13px 9px 14px 9px;
     text-align: right;
     font-size: 28px;
@@ -1567,8 +1566,6 @@ body .miamy-noteworthy{
      margin-top: 0; 
      margin-bottom: 0;
 }
-
-
 
 /*.page_destinations_open .row{
 	margin-top: 20px;
@@ -1628,7 +1625,6 @@ body .miamy-noteworthy{
 	color: #fff;
 	padding: 12px 0px 12px 20px;
 	/*margin: 40px 0;*/
-
 	display: inline-block;
     text-align: center;
     font-family: 'Etelka Medium Pro', sans-serif;
@@ -1648,12 +1644,6 @@ body .miamy-noteworthy{
 .page_destinations_open .tab-pane{
 	padding-top: 40px;
 }
-
-
-
-
-
-
 													/**/
 
 /*.page_destinations_open .custom-button {
@@ -1683,18 +1673,6 @@ body .miamy-noteworthy{
 	border-bottom: 4px solid #2eb3ff !important;
 	background: #2981b3 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 992px){
 	.page_destinations .main_img {
@@ -2275,6 +2253,10 @@ body .miamy-noteworthy{
 	}
 }
 													/*END 02_DESTINATIONS-08.10.2015*/
+
+.hero-tile-content {
+	padding: 45px 30px !important;  /*Static padding for the class "hero-tile-content" home page*/
+}
 
 
 
